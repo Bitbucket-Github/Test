@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [APISuite]">
+  <test parallel="tests" name="API(failed)">
+    <classes>
+      <class name="com.api.Runner.PostRunner">
+        <methods>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="setUpCucumber"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.api.Runner.PostRunner -->
+      <class name="com.api.Runner.Put_DeleteRunner">
+        <methods>
+          <include name="setUpCucumber"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.api.Runner.Put_DeleteRunner -->
+      <class name="com.api.Runner.GetRunner">
+        <methods>
+          <include name="setUpCucumber"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.api.Runner.GetRunner -->
+    </classes>
+  </test> <!-- API(failed) -->
+</suite> <!-- Failed suite [APISuite] -->

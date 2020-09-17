@@ -1,0 +1,16 @@
+com\api\Runner\PostRunner.class
+com\uiscripts\RunnerClass\MyStoreRunner.class
+com\uiscripts\RunnerClass\BasicsTestsRunner.class
+com\uiscripts\StepDefinitions\ConfigReader.class
+com\uiscripts\StepDefinitions\LoginTest.class
+com\uiscripts\RunnerClass\ShippingMethodRunner.class
+com\api\Runner\Put_DeleteRunner.class
+com\api\StepDefinition\GetStep.class
+com\uiscripts\RunnerClass\LoginTestRunner.class
+com\api\StepDefinition\Put_DeleteStepDef.class
+com\uiscripts\StepDefinitions\OpeningBrowser.class
+com\api\StepDefinition\PostStepDef.class
+com\api\Runner\GetRunner.class
+com\uiscripts\StepDefinitions\BasicsTests.class
+com\uiscripts\StepDefinitions\MyStore.class
+com\uiscripts\StepDefinitions\ShippingMethod.class

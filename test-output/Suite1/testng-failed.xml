@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test name="Get(failed)">
+    <classes>
+      <class name="com.api.Runner.GetRunnerClass">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="feature"/>
+          <include name="setUpCucumber"/>
+        </methods>
+      </class> <!-- com.api.Runner.GetRunnerClass -->
+    </classes>
+  </test> <!-- Get(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

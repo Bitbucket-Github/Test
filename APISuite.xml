@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="APISuite" verbose="1" parallel="tests" >
+  <test name="API" >
+    <classes>
+       <class name="com.api.Runner.GetRunner" />
+       <class name="com.api.Runner.PostRunner" />
+       <class name="com.api.Runner.Put_DeleteRunner" />
+    </classes>
+  </test>
+</suite>

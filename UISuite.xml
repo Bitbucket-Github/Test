@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="UISuite" verbose="1" parallel="tests">
+  <test name="UI" >
+    <classes>
+       <class name="com.uiscripts.RunnerClass.BasicsTestsRunner" />
+       <class name="com.uiscripts.RunnerClass.LoginTestRunner" />
+       <class name="com.uiscripts.RunnerClass.MyStoreRunner" />
+       <class name="com.uiscripts.RunnerClass.ShippingMethodRunner" />
+    </classes>
+  </test>
+</suite>
